@@ -1,5 +1,6 @@
-# Assignment #2 Repository
+# Assignment #2 README for Daniel Ahn
 
-This repository includes the simulated data for Assignment #2. Fork this repository and add your analysis as described in the canvas assignment.
+With this dataset, I defined cost as total cost of hospitalization and made it the outcome variable. My main research purpose was to study whether the type of hospitalization (cardic event vs non-cardiac event) was associated with cost. In this analysis, I found that non-cardiac event-related hospitalizations are significantly less costly than cardiac event-related hospitalizations ($9350.33 [SE $5.82] vs 10218.23 [SE 25.732075]), which can be viewed in Figure 1. I also performed a linear regression model to study whether hospitalization type and the other three variables included in the dataset (sex, current smoking status, and age) are associated with hospitalization cost. The results of this model are found in Table 3. In short, all four variables were significantly associated (all p < 0.001) with cost. A 1-year increase in age was associated with an $16.80 increase, female status was associated with $271.10 less cost than male status, positive current smoking status was associated with an increase in $510.80, and cardiac event-related hospitalizations were associated with $520.00 cost increase compared to non-cardiac event-related hospitalizations. 
 
-The csv file for `cohort` in the `raw-data` folder includes 5,000 observations with variables `smoke`, `female`, `age`, `cardiac`, and `cost`.
+I did not utilize any generative AI to complete this homework assignment.
+
